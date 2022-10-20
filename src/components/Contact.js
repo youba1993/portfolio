@@ -53,9 +53,9 @@ export default function Contact() {
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                                 EMAIL
                             </h2>
-                            <a 
-                            href = "mailto: youbaidjis@live.fr"
-                            className="text-indigo-400 leading-relaxed">
+                            <a
+                                href="mailto: youbaidjis@live.fr"
+                                className="text-indigo-400 leading-relaxed">
                                 youbaidjis@live.fr
                             </a>
                             {/* <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
@@ -66,22 +66,23 @@ export default function Contact() {
                     </div>
                 </div>
                 <form
-                onSubmit={()=>handleSubmit()}
+                    onSubmit={() => handleSubmit()}
                     netlify="true"
                     name="contact"
                     className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+                    <input type="hidden" name="contact" value="contact" />
                     <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
                         Hire Me
                     </h2>
                     <p className="leading-relaxed mb-5">
-                    Please don’t hesitate to contact me if you need further information or advising me.
+                        Please don’t hesitate to contact me if you need further information or advising me.
                     </p>
                     <div className="relative mb-4">
                         <label htmlFor="name" className="leading-7 text-sm text-gray-400">
                             Name
                         </label>
                         <input
-                            onChange={(e)=> setName(e.target.value)}
+                            onChange={(e) => setName(e.target.value)}
                             type="text"
                             id="name"
                             name="name"
@@ -93,7 +94,7 @@ export default function Contact() {
                             Email
                         </label>
                         <input
-                            onChange={(e)=>setEmail(e.target.value)}
+                            onChange={(e) => setEmail(e.target.value)}
                             type="email"
                             id="email"
                             name="email"
@@ -107,7 +108,7 @@ export default function Contact() {
                             Message
                         </label>
                         <textarea
-                            onChange={(e)=>setMessage(e.target.value)}
+                            onChange={(e) => setMessage(e.target.value)}
                             id="message"
                             name="message"
                             className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
