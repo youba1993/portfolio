@@ -1,5 +1,6 @@
 import React from 'react';
 import About from './components/About';
+import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Projects />
       <Skills />
+      <Blog />
       <Contact />
     </main>
   );

@@ -17,6 +17,15 @@ export default function Navbar() {
           <a href="#skills" className="mr-5 hover:text-white">
             Skills
           </a>
+          <a href="#blogs" className="mr-5 hover:text-white">
+            Blogs
+          </a>
+          <a href="https://github.com/youba1993" className="mr-5 hover:text-white">
+            Github
+          </a>
+          <a href="https://www.linkedin.com/in/youba-idjis/" className="mr-5 hover:text-white">
+            LinkedIn
+          </a>
           {/* <a href="#testimonials" className="mr-5 hover:text-white">
             Testimonials
           </a> */}
