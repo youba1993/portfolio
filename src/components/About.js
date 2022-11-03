@@ -29,7 +29,7 @@ export default function About() {
                     <img
                         className="object-cover object-center rounded"
                         alt="Youba IDJIS"
-                        src="https://ik.imagekit.io/nvnw6o7ew/youba_kLCdrBFlS.jfif?ik-sdk-version=javascript-1.4.3&updatedAt=1666156715646"
+                        src="https://ik.imagekit.io/nvnw6o7ew/youba__L_7yBDW4m.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667501773862"
                     />
                 </div>
             </div>
