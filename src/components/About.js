@@ -10,9 +10,12 @@ export default function About() {
                         <br className="hidden lg:inline-block" /> I'm passionate about building great websites and apps.
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        I'm a full stack web developer and software engineer based in Sacramento,CA.
-                        I have a degree in mathematics and computer science, just arrived in the USA I applied for a coding bootcamp where I developed my skills by adding Ruby on rails,  React and more that we can find <a href="#skills">here</a>.
-                        I love to learn new technologies and flex my creativity to create amazing things.
+                    A dedicated full stack web developer and software engineer based in Sacramento, CA. 
+                    I hold a degree in mathematics and computer science, and recently completed a rigorous coding bootcamp where I gained hands-on experience with cutting-edge technologies such as Ruby on Rails and React.
+                    I'm passionate about building great websites and apps that deliver real value to users. Whether I'm working on the front end or the back end, I always strive to create efficient, reliable, and user-friendly software. I love to stay up-to-date with the latest trends and best practices in the industry, 
+                    and I'm constantly learning new skills and exploring new technologies to stay ahead of the curve.
+                    In addition to my technical expertise, I also bring strong communication, collaboration, and leadership skills to every project. Whether working with clients, colleagues, or stakeholders, I pride myself on my ability to listen, learn, and adapt to meet the needs of the team.
+                    If you're looking for a talented and dedicated full stack web developer, I'd love to chat!
                     </p>
                     <div className="flex justify-center">
                         <a  href="#contact" className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
@@ -36,3 +39,4 @@ export default function About() {
         </section>
     )
 }
+

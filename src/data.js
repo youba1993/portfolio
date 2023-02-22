@@ -20,14 +20,14 @@ export const projects = [
   export const skills = [
     "JavaScript",
     "React",
-    "Next.js",
-    "Node",
+    "Express.js",
+    "Node.js",
     "Ruby on Rails",
     "Ruby",
     "Bootstrap",
     "PostgreSQL",
     "Git & GitHub",
-    "Java (coming soon)"
+    "Tailwind CSS"
   ];
 
   export const blogs = [
