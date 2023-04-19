@@ -13,7 +13,7 @@ export const projects = [
       description:
         "58 Algerian cities names, 548 Dairas. Support both Arabic and French languages.",
       image: "https://ik.imagekit.io/nvnw6o7ew/algerography_BaE6eGKLU.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666212752205",
-      link: "https://taslent.netlify.app/",
+      link: "https://rubygems.org/gems/algerography",
     },
     {
       title: "Taslent",
@@ -21,7 +21,7 @@ export const projects = [
       description:
         "non-profit community website",
       image: "",
-      link: "https://rubygems.org/gems/algerography",
+      link: "https://taslent.netlify.app/",
     },
     {
       title: "PetPalace",
